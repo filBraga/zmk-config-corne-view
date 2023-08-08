@@ -107,12 +107,12 @@
 
 &none   /**/  &kp EXCL    &kp AT         &kp HASH     &kp DLLR    &kp PRCNT   /**/  &kp CARET   &kp LPAR   &kp RPAR   &kp PIPE   &none      /**/  &none
 &none   /**/  &kp GRAVE   &none          &none        &none       &none       /**/  &kp AMPS    &kp LBKT   &kp RBKT   &none      &none      /**/  &none
-&none   /**/  &kp TILDE   &none          &none        &none       &none       /**/  &kp UNDER   &kp LBRC   &kp RBRC   &none      &none      /**/  &none
+&none   /**/  &kp TILDE   &none          &none        &none       &bt BT_CLR  /**/  &kp UNDER   &kp LBRC   &kp RBRC   &none      &none      /**/  &none
                                                       &trans &mo FUNC &trans  /**/  &trans &trans &trans
 
       >;
     };
-
+    
     func_layer {
       bindings = <
 
