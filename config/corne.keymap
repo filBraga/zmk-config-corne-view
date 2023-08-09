@@ -88,7 +88,7 @@
 &none   /**/  &hm LCTRL Z     &hm LALT X   &kp C       &kp V     &kp B   /**/  &kp N    &kp M    &kp COMMA   &hm RALT DOT  &hm RCTRL FSLH   /**/  &none
                              &mt ENTER TAB  &lt NUM BSPC &mt LGUI SPACE  /**/  &mt RGUI RET &lt SYM DEL &mt GRAVE SQT
 
-      >;s 
+      >;
     };
 
     num_layer {
