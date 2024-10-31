@@ -91,16 +91,7 @@
       >;
     };
 
-    sym_layer {
-      bindings = <
 
-&none   /**/  &kp EXCL    &kp AT      &kp HASH       &kp DLLR        &kp PRCNT    /**/   &kp CARET      &kp AMPS   &kp ASTERISK      &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS    /**/  &none
-&none   /**/  &kp TILDE   &none       &none          &none           &none        /**/   &kp UNDER      &kp PLUS   &kp LEFT_BRACE    &kp RIGHT_BRACE         &kp PIPE                 /**/  &none
-&none   /**/  &none       &none       &none          &none           &none        /**/   &none          &none      &none             &none                   &kp DQT                  /**/  &none
-                                                          &trans &mo FUNC &trans  /**/   &trans &trans &trans
-
-      >;
-    };
 
     num_layer {
       bindings = <
@@ -110,6 +101,17 @@
 &none   /**/  &kp LG(LS(Z))   &kp LEFT      &kp DOWN    &kp RIGHT       &kp CAPSLOCK    /**/  &none      &none      &none             &none              &kp SQT          /**/  &none
                                                               &trans  &trans  &trans    /**/  &trans  &mo FUNC  &trans
                                                                
+      >;
+    };
+
+        sym_layer {
+      bindings = <
+
+&none   /**/  &kp EXCL    &kp AT      &kp HASH       &kp DLLR        &kp PRCNT    /**/   &kp CARET      &kp AMPS   &kp ASTERISK      &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS    /**/  &none
+&none   /**/  &kp TILDE   &none       &none          &none           &none        /**/   &kp UNDER      &kp PLUS   &kp LEFT_BRACE    &kp RIGHT_BRACE         &kp PIPE                 /**/  &none
+&none   /**/  &none       &none       &none          &none           &none        /**/   &none          &none      &none             &none                   &kp DQT                  /**/  &none
+                                                          &trans &mo FUNC &trans  /**/   &trans &trans &trans
+
       >;
     };
 
